@@ -34,7 +34,7 @@
         "component": "About",
         "props": {
           "background": {
-            "type": "color",
+            "type": "gradient",
             "reference": "black"
           }
         }
