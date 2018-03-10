@@ -37,7 +37,7 @@ class App extends BaseComponent {
     return(
       <div>
         <Header {...headerProps} />
-        <div className="container" id="content">
+        <div className="container-fluid" id="content">
           {headerProps.items.map(this.getRoutes)}
         </div>
       </div>

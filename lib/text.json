@@ -1,3 +1,35 @@
 {
-  "title": "Tone Linghult"
+  "title": "Tone Linghult",
+  "projects": [
+    {
+      "title": "Glass Weave",
+      "images": ["/lib/images/Glassnet.jpg"],
+      "videos": ["/lib/videos/Glassweave1.mp4"]
+    },
+    {
+      "title": "Glass Weave",
+      "images": ["/lib/images/Telefonplan.jpg"],
+      "videos": ["/lib/videos/Glassweave1.mp4"]
+    },
+    {
+      "title": "Glass Weave",
+      "images": ["/lib/images/Glassnet.jpg"],
+      "videos": ["/lib/videos/Glassweave1.mp4"]
+    },
+    {
+      "title": "Glass Weave",
+      "images": ["/lib/images/Glassnet.jpg"],
+      "videos": ["/lib/videos/Glassweave1.mp4"]
+    },
+    {
+      "title": "Glass Weave",
+      "images": ["/lib/images/Glassnet.jpg"],
+      "videos": ["/lib/videos/Glassweave1.mp4"]
+    },
+    {
+      "title": "Glass Weave",
+      "images": ["/lib/images/Glassnet.jpg"],
+      "videos": ["/lib/videos/Glassweave1.mp4"]
+    }
+  ]
 }
