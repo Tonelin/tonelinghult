@@ -1,0 +1,65 @@
+{
+  "header": {
+    "props": {
+      "alignment": "center",
+      "backgroundColor": "black",
+      "title": "Tone Linghult"
+    },
+    "items": [
+      {
+        "displayName": "Home",
+        "href": "",
+        "component": "Index",
+        "props": {
+          "background": {
+            "type": "video",
+            "reference": "/lib/videos/Glass_weave.mp4"
+          }
+        }
+      },
+      {
+        "displayName": "Portfolio",
+        "href": "portfolio",
+        "component": "Portfolio",
+        "props": {
+          "background": {
+            "type": "color",
+            "reference": "black"
+          }
+        }
+      },
+      {
+        "displayName": "About",
+        "href": "about",
+        "component": "About",
+        "props": {
+          "background": {
+            "type": "color",
+            "reference": "black"
+          }
+        }
+      },
+      {
+        "href": "cv",
+        "component": "Cv",
+        "props": {
+          "background": {
+            "type": "color",
+            "reference": "white"
+          }
+        }
+      },
+      {
+        "href": "projects/:id",
+        "component": "Project",
+        "props": {
+          "background": {
+            "type": "color",
+            "reference": "black"
+          }
+        }
+      }
+    ]
+  },
+  "textContent": "text.json"
+}
