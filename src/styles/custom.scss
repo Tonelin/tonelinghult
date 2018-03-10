@@ -71,6 +71,10 @@ video{
   max-width: 100%;
 }
 
+.gradient{
+  background: linear-gradient(red , yellow);
+}
+
 a{
   color: $main-text-color; 
 }

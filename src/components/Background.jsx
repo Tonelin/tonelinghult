@@ -28,7 +28,8 @@ export default class Background extends React.Component {
         background = <div style={{backgroundColor: props.reference}} className="color-background"></div>
         break
       case "gradient":
-        background = <div>test</div>
+        background = <div className="color-background gradient"></div>
+        break;
       default:
         background = null;
         break;
