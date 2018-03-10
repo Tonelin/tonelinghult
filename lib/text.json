@@ -3,6 +3,12 @@
   "projects": [
     {
       "title": "Glass Weave",
+      "secondTitle": "Telefonplansinstallation",
+      "href": "glass_weave",
+      "text": [
+        "Test test test test",
+        "test2 test2 test 2 tst 2"
+      ],
       "images": ["/lib/images/Glassnet.jpg"],
       "videos": ["/lib/videos/Glassweave1.mp4"]
     },

@@ -14,11 +14,38 @@ export default class Project extends BaseComponent {
   }
 
   render () {
-    const title = this.props.match.params.id;
+    const id = this.props.match.params.id;
+    const content = document.store.textContent ? document.store.textContent.projects.filter((item) => {
+      return item.href === id;
+    })[0] : {
+      images: [],
+      videos: []
+    };
+    console.log("content", content)
     return (
         <div className="col text-center">
           {this.getBackGround()}
-          <h1 id="main-page-title">{title}</h1>
+          <div className="project-wrapper">
+            <h2>{content.title}</h2>
+            <div className="col-md-12">
+              {content.images.map((item, index) => {
+                return (
+                <div className="col-md-4">
+                  <img className="img img-fluid" src={item} alt=""/>
+                </div>
+                )
+              })}
+            </div>
+            <div className="col-md-12">
+              {content.videos.map((item, index) => {
+                return (
+                <div className="col-md-8">
+                  <video controls className="img img-fluid" src={item} alt=""/>
+                </div>
+                )
+              })}
+            </div>
+          </div>
         </div>
     )
   }

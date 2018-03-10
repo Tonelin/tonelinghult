@@ -17,13 +17,17 @@ export default class About extends BaseComponent {
     let projects = document.store && document.store.textContent ? document.store.textContent.projects : [];
     const featured = projects.slice(0,4) || []
     projects = projects.slice(4)
-    
+
+    const one = featured[0] ? featured[0] : {};
+    console.log("one", one)
     console.log(featured, projects)
     return (
         <div className="col text-center">
           <div className="row">
             <div className="col-md-6 project-preview">
+              <a href={"/#/projects/"  + one.href }>
               <img className="img img-fluid" src={featured[0] ? featured[0].images[0] : ""} alt=""/>
+              </a>
             </div>
             <div className="col-md-6 project-preview">
               <div className="row">
